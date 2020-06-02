@@ -1,24 +1,33 @@
-# README
+# W8D2 - Lecture
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+- End-to-End Testing (Feature)
 
-Things you may want to cover:
+## End-to-End Testing (Feature)
 
-* Ruby version
+- A lot more high-level than unit tests, which focus on the technical details and business logic of your models.
 
-* System dependencies
+- Describe flows on and between your pages.
 
-* Configuration
+- Feature tests which are based on your user stories, check if the requirements are being met or not
 
-* Database creation
+### Pros and Cons
 
-* Database initialization
+- Tests that are not possible with other kind of tests
 
-* How to run the test suite
+- Slower to run than unit tests
 
-* Services (job queues, cache servers, search engines, etc.)
+- Increases the costs of running tests
 
-* Deployment instructions
+### Capybara
 
-* ...
+Capybara is a testing tool that allows us to:
+
+- Automate Tests for the UI
+
+- Writing assertions againts actual pages
+
+- Written from the perspective of a user
+
+- Simulate your browsers clicking through different actions such as clicking around and filling out forms
+
+- [Capybara Cheatsheet](https://devhints.io/capybara)
